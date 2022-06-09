@@ -6,7 +6,7 @@
     "postinstall": "",
     "lint": "eslint packages --fix --ext .ts",
     "build:utils": "tsc",
-    "bootstrap": "lerna bootstrap --use-workspaces"
+    "bootstrap": "lerna bootstrap"
   },
   "lint-staged": {
     "packages/**": "npm run lint"
