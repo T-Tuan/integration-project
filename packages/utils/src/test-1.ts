@@ -1,5 +1,5 @@
 export const test = (params: any) => {
-  console.log(params);
+  console.log(params)
 
   // const func = (s: string) => {
   //   // console.log(s);
@@ -9,5 +9,5 @@ export const test = (params: any) => {
   //   a: 1,
   //   b: 2,
   // };
-  return true;
-};
+  return true
+}

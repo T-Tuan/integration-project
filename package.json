@@ -4,7 +4,7 @@
   "scripts": {
     "prepare": "husky install .config/husky",
     "postinstall": "",
-    "lint": "eslint packages --fix --ext .ts",
+    "lint": "eslint packages --ext .js,.ts --fix",
     "build:utils": "tsc",
     "bootstrap": "lerna bootstrap"
   },
