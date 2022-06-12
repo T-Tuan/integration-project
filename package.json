@@ -5,6 +5,7 @@
     "prepare": "husky install .config/husky",
     "postinstall": "",
     "lint": "eslint packages --ext .js,.ts --fix",
+    "lint:ts": "tsc --noEmit",
     "build:utils": "tsc",
     "bootstrap": "lerna bootstrap"
   },

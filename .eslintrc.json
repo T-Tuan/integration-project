@@ -6,7 +6,7 @@
   "extends": [
     "eslint:recommended",
     // "plugin:@typescript-eslint/recommended",
-    // "plugin:prettier/recommended",
+    "plugin:prettier/recommended",
     "prettier"
   ],
   "globals": {
@@ -33,7 +33,7 @@
       1,
       "backtick",
       {
-        "allowTemplateLiterals": true
+        "allowTemplateLiterals": false
       }
     ],
     "curly": [2, "all"],

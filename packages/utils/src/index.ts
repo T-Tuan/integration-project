@@ -1,2 +1,4 @@
-// 导出公共方法
-export * from './test-1'
+export * from './bom'
+export * from './common'
+export * from './dom'
+export * as http from './http'
