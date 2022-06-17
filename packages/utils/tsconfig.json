@@ -1,8 +1,12 @@
 {
-  "extends": "../../tsconfig.base.json",
+  "extends": "../../.config/tsconfig.base",
   "compilerOptions": {
+    "lib": ["DOM", "ESNext"]
   },
   "include": [
     "src"
+  ],
+  "exclude": [
+    "src/pending"
   ]
 }
