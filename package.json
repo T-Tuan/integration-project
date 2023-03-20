@@ -1,0 +1,23 @@
+{
+  "name": "rubbish",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky install .config/husky"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages",
+    "packages\\bom",
+    "packages\\core",
+    "packages\\web"
+  ],
+  "devDependencies": {
+    "@microsoft/tsdoc": "^0.14.2",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0"
+  }
+}

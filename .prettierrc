@@ -1,0 +1,15 @@
+{
+    "tabWidth": 2,
+    "arrow-body-style": "off",
+    "prefer-arrow-callback": "off",
+    "linebreak-style": "off",
+    "endOfLine": "auto",
+    "quotes": "backtick",
+    "semi": false,
+    "bracketSameLine": true,
+    "jsxBracketSameLine": true,
+    "arrowParens": "always",
+    "singleQuote": true,
+    "printWidth": 80,
+    "trailingComma": "all"
+}
