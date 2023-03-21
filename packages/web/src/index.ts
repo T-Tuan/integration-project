@@ -9,8 +9,8 @@ export enum BrowserType {
 
 /**
  * 检测浏览器类型和版本
- * @param targetBrowser 指定的浏览器名称，可选参数
- * @returns 如果指定了 targetBrowser 参数，则返回一个布尔值，表示当前浏览器是否为指定浏览器，否则返回一个包含浏览器类型和版本的对象
+ * @param {BrowserType} targetBrowser - 指定的浏览器名称，可选参数
+ * @returns - 如果指定了 targetBrowser 参数，则返回一个布尔值，表示当前浏览器是否为指定浏览器，否则返回一个包含浏览器类型和版本的对象
  */
 export function detectBrowser(targetBrowser?: BrowserType): boolean | { name: string, version: string } {
   const userAgent = navigator.userAgent;

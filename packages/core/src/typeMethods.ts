@@ -111,8 +111,8 @@ export function isRegExp(value: unknown): value is RegExp {
 /**
  * 检查一个值是否为错误类型。
  *
- * @param value 要检查的值。
- * @returns 如果值为错误类型，则返回 true，否则返回 false。
+ * @param {unknown} value - 要检查的值。
+ * @returns {boolean} - 如果值为错误类型，则返回 true，否则返回 false。
  * @category 类型检查方法
  */
 export function isError(value: unknown): value is Error {

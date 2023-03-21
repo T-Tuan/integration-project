@@ -100,6 +100,7 @@ export function generateRandomString(length: number = 8): string {
     randomString += timestamp[randomIndex];
   }
   return randomString;
+
 }
 
 

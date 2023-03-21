@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "prepare": "husky install .config/husky"
+    "prepare": "husky install .config/.husky",
+    "test": "tsc-files --noEmit  D:\\Desktop\\ibin\\index.ts "
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +19,10 @@
   "devDependencies": {
     "@microsoft/tsdoc": "^0.14.2",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.0"
+    "lint-staged": "^13.2.0",
+    "tsc-files": "^1.1.3"
+  },
+  "dependencies": {
+    "@types/node": "^18.15.5"
   }
 }
